@@ -163,4 +163,7 @@ demo = gr.Interface(
 # --- Launch ---
 # Note: In a Colab environment, share=True is needed to get a public URL
 if __name__ == "__main__":
-    demo.launch(share=True)
+    demo.launch(
+    server_name="0.0.0.0",
+    server_port=int(os.environ.get("PORT", 8000))
+)
