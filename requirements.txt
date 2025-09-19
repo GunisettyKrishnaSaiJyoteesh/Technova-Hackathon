@@ -1,0 +1,10 @@
+# Core ML and Web Frameworks
+torch --index-url https://download.pytorch.org/whl/cpu
+transformers
+gradio
+accelerate
+
+# Image and Data Handling
+Pillow
+numpy
+opencv-python-headless
